@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practicas TIG</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header, footer {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            width: 100%;
+            text-align: center;
+            background-color: #333;
+            color: #fff;
+        }
+
+        nav {
+            text-align: center;
+            background-color: #444;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .practica {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #fff;
+        }
+        
+        
+
+        /* Consultas de medios para hacer la página receptiva */
+        @media (min-width: 768px) {
+            .practica {
+                width: 48%;
+            }
+        }
+
+        @media (min-width: 992px) {
+            .practica {
+                width: 30%;
+            }
+        }
+
+        h2, a{text-align: center;}
+        object, iframe, img{ 
+            margin-left: auto; 
+            margin-right: auto; 
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Proyecto Web TIG</h1>
+    </header>
+
+    <section>
+        <!-- Aquí puedes agregar bloques para cada uno de tus proyectos -->
+        <div class="practica">
+            <h2>Práctica 1</h2>
+            <img src="prac1\prac1.png" width="300" height="200">
+            <a href="prac1\prac1.png" download >
+                <p>Descargar imagen</p>
+            </a>
+        </div>
+
+        <div class="practica">
+            <h2>Práctica 3</h2>
+            <object data="prac3\Estaciones.pdf" type="application/pdf" width="200" height="150"></object>
+            <object data="prac3\Temperaturas.pdf" type="application/pdf" width="200" height="150"></object>
+            <a href="prac3\Estaciones.pdf" download>
+                <p>Descargar PDF Precipitaciones</p>
+            </a>
+            <a href="prac3\Temperaturas.pdf" download >
+                <p>Descargar PDF Temperaturas</p>
+            </a>
+        </div>
+
+        <div class="practica">
+            <h2>Práctica 4</h2>
+            <iframe width="100%" height="fitBounds" src="prac4/Lobos.html"  > </iframe>
+            <a href="prac4/Lobos.html" target="_blank">
+                <p>Abrir WebMap</p>
+            </a>
+
+        </div>
+
+        <div class="practica">
+            <h2>Práctica 5</h2>
+            <iframe width="100%" height="fitBounds" src="prac5/severidad.html" > </iframe>
+            <a href="prac5/severidad.html" target="_blank">
+                <p>Abrir WebMap</p>
+            </a>
+        </div>
+
+        <div class="practica">
+            <h2>Práctica 7</h2>
+            <img src="prac7/Rendimientos.jpg" width="300" height="200">
+            <a href="prac7/Rendimientos.jpg" download >
+                <p>Descargar imagen</p>
+            </a>
+            <a href="prac7/Tabla.html" target="_blank">
+                <p>Abrir Tabla</p>
+            </a>
+        </div>
+
+        <div class="practica">
+            <h2>Práctica 8</h2>
+            <iframe width="100%" height="fitBounds" src="prac8/madrid_contenedores.html" > </iframe>
+            <a href="prac8/madrid_contenedores.html" target="_blank">
+                <p>Abrir WebMap</p>
+            </a>
+        </div>
+
+        <div class="practica">
+            <h2>Práctica 9</h2>
+            <iframe width="100%" height="fitBounds" src="prac9/qgis2web_2024_02_04-20_28_17_330596/index.html" > </iframe>
+            <a href="prac9/qgis2web_2024_02_04-20_28_17_330596/index.html" target="_blank">
+                <p>Abrir WebMap EVI</p>
+            </a>
+            <iframe width="100%" height="fitBounds" src="prac9/qgis2web_2024_02_04-20_29_23_902875/index.html" > </iframe>
+            <a href="prac9/qgis2web_2024_02_04-20_29_23_902875/index.html" target="_blank">
+                <p>Abrir WebMap SAVI</p>
+            </a>
+        </div>
+
+        <div class="practica">
+            <h2>Práctica 10</h2>
+            <p>Descripción del proyecto.</p>
+            <a href="#">Enlace al proyecto</a>
+        </div>
+
+        <!-- Puedes copiar y pegar más bloques según sea necesario -->
+
+    </section>
+
+    <footer>
+        <p>&copy; Proyecto TIG Carlos Botella y Alejandro Roca</p>
+    </footer>
+
+</body>
+</html>
